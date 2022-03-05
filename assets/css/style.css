@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300&family=Spartan&display=swap');
+ 
+ * {
+     margin: 0;
+     font-family: 'Spartan', sans-serif;
+ }
+
+
+.pElemento {
+    position: absolute;
+    width: 720px;
+    height:100vh;
+    left: 0px;
+    top: 0px;
+    background-color: #000;
+    z-index: 9999;
+}
+.logo {
+    position: absolute;
+    width: 389px;
+    height: 94px;
+    left: 30px;
+    top: 50px;
+}
+.box-text {
+    position: absolute;
+    width: 647px;
+    height: 102px;
+    left: 36px;
+    top: 236px;
+    color: #E1E1E6;
+    
+}
+
+.form{
+    color:#A8A8A8;
+    position: absolute;
+    width: 798px;
+    height: 84px;
+    left: 36px;
+    top: 388px;
+  
+}
+
+.form input {
+    width: 750px;
+    height: 48px;
+    left: 36px;
+    top: 424px;
+    filter: drop-shadow(4px 10px 15px rgba(0, 0, 0, 0.5));
+  
+}
+
+.arrow {
+    position: absolute;
+    width: 196px;
+    height: 24px;
+    left: 36px;
+    top: 522px;
+    
+    
+}
+.arrow a {
+    list-style: none;
+    color: #8257E5;
+    text-decoration: none;
+}
+.arrow a:hover {
+    color: #fff;
+}
+
+/* SEGUNDO ELEMENTO */
+
+.sElemento  {
+    position: absolute;
+    width: 720px;
+    height:100vh;
+    right: 0px;
+    top: 0px;
+    background-color: #000;
+}
+.sElemento img {
+    max-width: 720px;
+    height:99vh;
+    width: auto;
+    
+}
